@@ -15,7 +15,11 @@ const proxy = require('./lib/proxy');
 
 /* eslint-disable global-require */
 const resources = {
+  accessApplications: require('./lib/resources/AccessApplications'),
   argoTunnels: require('./lib/resources/ArgoTunnels'),
+  cloudflareTunnels: require('./lib/resources/CloudflareTunnels'),
+  cloudflareTunnelConnections: require('./lib/resources/CloudflareTunnelConnections'),
+  cloudflareTunnelConfigurations: require('./lib/resources/CloudflareTunnelConfigurations'),
   dnsRecords: require('./lib/resources/DNSRecords'),
   enterpriseZoneWorkersScripts: require('./lib/resources/EnterpriseZoneWorkersScripts'),
   enterpriseZoneWorkersRoutes: require('./lib/resources/EnterpriseZoneWorkersRoutes'),
