@@ -16,7 +16,6 @@ const proxy = require('./lib/proxy');
 /* eslint-disable global-require */
 const resources = {
   accessApplications: require('./lib/resources/AccessApplications'),
-  accessApplicationsCA: require('./lib/resources/AccessApplicationsCA'),
   argoTunnels: require('./lib/resources/ArgoTunnels'),
   cloudflareTunnels: require('./lib/resources/CloudflareTunnels'),
   cloudflareTunnelConnections: require('./lib/resources/CloudflareTunnelConnections'),
